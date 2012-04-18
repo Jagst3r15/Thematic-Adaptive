@@ -1,5 +1,4 @@
 
-
 /*
 LAYOUT: One-Column (Right) Fluid
 DESCRIPTION: Two-column 1140px fluid layout with one sidebar right of content, at tablet size- becomes 1 column
@@ -163,3 +162,44 @@ body {
 	}
 
 }
+@media handheld, only screen and (max-width: 480px) {
+
+	body { 
+		font-size: 16px;
+		line-height: 24px;
+		-webkit-text-size-adjust: none;		/* Stops the iPhone scalling type up */ 
+	}
+	
+	#container {
+		width: 100%;
+		margin: 0 0 22px 0;
+	}
+	
+	.main-aside {
+		margin-top: 22px;
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	
+	#primary {
+		margin-right: 3.8%;
+	}
+	#footer { 
+		margin-top;
+	}
+	#subsidiary {
+		padding-top: 0;
+	}
+	#subsidiary .aside {
+		width: 100%;
+		float: none;
+		margin:0 0 22px 0;
+	}
+
+	.page-template-template-page-fullwidth-php #comments {
+		width: 100%;
+	}
+
+}
+
